@@ -15,7 +15,16 @@ const Login = () => {
   return (
     <View style={styles.container}>
       <Text style={styles.Welcome}>Welcome</Text>
+      <Text style={styles.Form}>
+        Email: <Text />
+      </Text>
+
       <LoginInput />
+      <Text style={styles.Form}>
+        Password: <Text />
+      </Text>
+      <LoginInput />
+      <Text style={styles.forgotPassword}>Forgot Password?</Text>
     </View>
   );
 };
@@ -34,5 +43,13 @@ const styles = StyleSheet.create({
     color: "#FF00BB",
     fontFamily: "BungeeInline",
     fontSize: 48,
+  },
+  Form: {
+    fontFamily: "BungeeInline",
+  },
+  forgotPassword: {
+    fontFamily: "BungeeInline",
+    color: "blue",
+    marginTop: 10,
   },
 });

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { StyleSheet, TextInput, View } from "react-native";
 
 const LoginInput = () => {
-  const [text, setText] = useState('');
+  const [text, setText] = useState("");
 
   return (
     <View style={styles.container}>
@@ -28,10 +28,11 @@ const styles = StyleSheet.create({
     width: 300,
     height: 50,
     borderWidth: 1,
-    borderColor: '#ccc',
+    borderColor: "#ccc",
     borderRadius: 8,
     paddingHorizontal: 15,
     fontSize: 16,
-    backgroundColor: '#fff',
+    backgroundColor: "#000000",
+    color: "white",
   },
 });
